@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<!-- HOW TO USE THIS FORM DATA  -->
+
+<!-- form data ka use karne ke liye body-parser ka use hoga aur isse humlog body form data parse kar payenge -->
+
+
+
+    <form action="/" method="post">
+        <!-- yaha par form data generate hoga aur usse humlog post method se index.html par matlab issi html par rakhenge -->
+        <input type="number" name="num1" placeholder="Number1">
+        <!-- yaha par num1 naam ka html ka variable type ka data store hoga joh humlog store kar rahe hain
+        yeh num1 formdata main as a output rahega -->
+        <input type="number" name="num2" placeholder="Number2">
+        <!-- yaha par num2 ek variable ke naam jaisa treat hoga aur isse humlog form data main rakhenge  -->
+        <button type="submit">Calculate</button>
+        <!-- agar button type submit nahi rahega toh form data ko use nahi kar paayenge -->
+    </form>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body{ background-color: #D2FAFB; }
+h1{
+    color: #54BAB9;
+}
+h2{
+    color: #614124;
+}
+img:hover{
+    background-color: #FF6D28;
+}
+
+.circle{
+    border-radius: 100%;
+}
+hr{
+    border-style: none;
+    border-color: #FF6D28;
+    border-top-style: dotted;
+    border-bottom-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-width: 10px;
+    width: 10%;
+
+}

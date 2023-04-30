@@ -1,0 +1,12 @@
+ <!-- yeh tha humlog ka challenge no. 13 isme apne ko for loop ka use karna tha jiske help se apneko sirf posts[i].posttile ko console
+   main print karna tha  -->
+   <!-- <% for(var i=0; i<posts.length; i++){ %>
+     <%=   console.log(posts[i].posttitle); %>
+   <% } %> -->
+
+<!-- 
+   yeh tha challenge no. 14 isme for each loop use karna tha yeh basic loop ki tarah hi work karta hain bus isme 
+   ek function define karte hain -->
+   <!-- <% posts.forEach(function(post){ %>
+   <%  console.log(post.posttitle) %>
+   <% })  %> -->
